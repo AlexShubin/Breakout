@@ -193,7 +193,6 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             gameScene.scaleMode = .aspectFill
             
             self.view?.presentScene(gameScene)
-            
         }
         
         if body1.categoryBitMask == ballCategory && body2.categoryBitMask == brickCategory {
@@ -206,11 +205,8 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
                 gameScene.scaleMode = .aspectFill
                 
                 self.view?.presentScene(gameScene)
-                
+
             }
-            
         }
-        
     }
-    
 }
